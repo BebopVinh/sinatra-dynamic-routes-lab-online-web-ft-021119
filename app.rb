@@ -23,6 +23,6 @@ class App < Sinatra::Base
     params.values.join(" ") + "."
   end
 
-  
+  get '/:operation/:number1/:number2'
 
 end
