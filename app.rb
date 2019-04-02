@@ -24,6 +24,7 @@ class App < Sinatra::Base
   end
 
   get '/:operation/:number1/:number2' do
-    case params
+    case params[:operation]
+    when 
   end
 end
