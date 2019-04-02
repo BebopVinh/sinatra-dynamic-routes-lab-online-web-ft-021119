@@ -16,5 +16,6 @@ class App < Sinatra::Base
     x = params[:number].to_i
     array = []
     x.times {array << phrase}
+    array.join(" ")
   end
 end
